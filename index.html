@@ -63,7 +63,55 @@
     <body>
         <div id="root">
             <!-- Header -->
-            <header class="header"></header>
+            <header class="header">
+                <div class="grid wide">
+                    <div class="row-center header__wrapper">
+                        <!-- Logo -->
+                        <a href="#" class="row-center">
+                            <img src="./assets/img/logo.svg" alt="Modulars" class="header__logo" />
+                        </a>
+                        <div class="row-center header__row">
+                            <!-- Navbar -->
+                            <nav class="header__navbar hide-tablet-mobile">
+                                <ul class="row-center header__navbar-list">
+                                    <li class="header__navbar-item header__navbar-item--active">
+                                        <a href="#!" class="header__navbar-link">Home</a>
+                                    </li>
+                                    <li class="header__navbar-item">
+                                        <a href="#!" class="header__navbar-link">About</a>
+                                    </li>
+                                    <li class="header__navbar-item">
+                                        <a href="#!" class="header__navbar-link">Blog</a>
+                                    </li>
+                                    <li class="header__navbar-item">
+                                        <a href="#!" class="header__navbar-link">Contact</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                            <!-- Authentication -->
+                            <div class="header__authenticate">
+                                <a href="#!" class="btn header__sign-up">Sign Up</a>
+                            </div>
+
+                            <!-- Mobile menu -->
+                            <button class="header__menu-btn">
+                                <svg
+                                    width="18"
+                                    height="16"
+                                    viewBox="0 0 18 16"
+                                    fill="none"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <rect width="18" height="2" fill="currentColor" />
+                                    <rect y="7" width="18" height="2" fill="currentColor" />
+                                    <rect y="14" width="18" height="2" fill="currentColor" />
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="header__divider hide-tablet-mobile"></div>
+                </div>
+            </header>
             <!-- Main -->
             <main class="main">
                 <h1>Creative agency landing page</h1>
