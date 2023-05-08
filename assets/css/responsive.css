@@ -102,6 +102,26 @@
         top: 8px;
         left: -10px;
     }
+
+    /* Contributor */
+    .contributor {
+        margin-left: var(--gap-mobile);
+        margin-right: var(--gap-mobile);
+    }
+
+    .contributor__list {
+        border-radius: 30px;
+        padding: 55px 28px;
+        row-gap: 33px;
+    }
+
+    .contributor__item {
+        text-align: center;
+    }
+
+    .contributor__logo {
+        transform: scale(0.8);
+    }
 }
 
 /* Tablet 740px - 1023px */
