@@ -94,3 +94,38 @@ a {
     display: flex;
     align-items: center;
 }
+
+.subheading {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: var(--text-color);
+    display: flex;
+    align-items: center;
+}
+
+.subheading::before {
+    content: "";
+    display: inline-block;
+    width: 25px;
+    height: 1px;
+    background-color: currentColor;
+    margin-right: 20px;
+}
+
+.heading {
+    font-weight: 600;
+    font-size: 4.2rem;
+    line-height: 1.24;
+    color: var(--text-color);
+}
+
+.heading::after {
+    content: "";
+    display: inline-block;
+    width: 66px;
+    height: 2px;
+    background-color: currentColor;
+    margin-left: 20px;
+    margin-bottom: 6px;
+}

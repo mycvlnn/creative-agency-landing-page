@@ -122,6 +122,66 @@
     .contributor__logo {
         transform: scale(0.8);
     }
+
+    /* Service */
+    .service {
+        padding-left: var(--gap-mobile);
+        padding-right: var(--gap-mobile);
+    }
+
+    .service .heading {
+        max-width: 281px;
+    }
+
+    .service__list {
+        margin-top: 0;
+        flex-wrap: nowrap;
+        overflow: hidden;
+        position: relative;
+        padding: 50px 0;
+    }
+
+    .service__list .service__controls {
+        display: flex;
+        margin-top: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        justify-content: space-between;
+        align-items: center;
+        z-index: -1;
+    }
+
+    .service__control {
+        width: 33px;
+        height: 33px;
+    }
+
+    .service-item {
+        margin: 16px 40px;
+    }
+
+    .service-item {
+        box-shadow: -6px 9px 64px -16px rgba(118, 118, 118, 0.25);
+    }
+
+    .service-item:hover {
+        box-shadow: -6px 9px 64px -16px rgba(118, 118, 118, 0.25);
+    }
+
+    .service__info {
+        padding: 16px 12px 26px;
+    }
+
+    .service-item__title {
+        font-size: 2.6rem;
+    }
+
+    .service-item__desc {
+        font-size: 1.6rem;
+    }
 }
 
 /* Tablet 740px - 1023px */
