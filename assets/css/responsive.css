@@ -259,6 +259,48 @@
     .about__stats-desc {
         font-size: 1rem;
     }
+
+    /* Process */
+    .process {
+        margin-top: 50px;
+        padding: 0 var(--gap-mobile);
+    }
+
+    .process-item__row {
+        flex-direction: column;
+    }
+
+    .process__list {
+        margin-top: 60px;
+    }
+
+    .process-item {
+        padding: 36px 20px 22px;
+    }
+
+    .process-item:first-child {
+        padding: 56px 30px;
+    }
+
+    strong.process-item__no {
+        font-size: 5rem;
+        width: 107px;
+        flex-shrink: 0;
+    }
+
+    .process-item__content {
+        width: unset;
+        flex: 1;
+    }
+
+    .process-item__link {
+        text-decoration: none;
+    }
+
+    p.process-item__desc {
+        font-size: 14px;
+        margin-top: 22px;
+    }
 }
 
 /* Tablet 740px - 1023px */
