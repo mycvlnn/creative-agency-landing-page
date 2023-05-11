@@ -294,3 +294,183 @@
     line-height: 1.71;
     color: var(--text-desc);
 }
+
+/* About */
+
+.about {
+    margin-top: 157px;
+}
+
+.about__row {
+    display: flex;
+}
+
+.about__media {
+    width: 51.84%;
+    height: 557px;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.decor-media {
+    position: absolute;
+    top: -4px;
+    left: 50px;
+    transform: rotate(12.64deg);
+}
+
+.decor-media__union {
+    position: absolute;
+    top: 41px;
+    left: -41px;
+}
+
+.decor-media__wire {
+    width: 541px;
+    height: 360px;
+    transform: rotate(180deg);
+}
+
+.about__image {
+    width: calc(50% - 10px);
+    height: 480px;
+    box-shadow: 0px 4px 234px 11px rgba(59, 137, 71, 0.25);
+    border-radius: 210px;
+}
+
+.about__image:first-of-type {
+    align-self: flex-end;
+}
+
+.about__image:last-of-type {
+    align-self: flex-start;
+}
+
+.about__content {
+    flex-shrink: 0;
+    flex: 1;
+}
+
+.about__card {
+    position: absolute;
+    bottom: 8px;
+    right: -9px;
+    background-color: #fff;
+    width: 143px;
+    background: #ffffff;
+    box-shadow: 0px 7px 54px rgba(154, 154, 154, 0.25);
+    border-radius: 8px;
+    padding: 19px 17px 11px;
+}
+
+.about__card-content {
+    padding: 0 6px;
+}
+
+.about__card-title {
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 1;
+    color: var(--text-color);
+}
+
+.about__card-desc {
+    margin-top: 6px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--text-gray);
+    opacity: 0.4;
+}
+
+.about__progress-percent {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.about__progress-bar {
+    margin-top: 3px;
+    margin-bottom: 3px;
+    height: 2px;
+    background: #eaeaea;
+    border-radius: 10px;
+}
+
+.about__progress-current {
+    display: block;
+    width: 40%;
+    border-radius: 10px;
+    height: 2px;
+    background-color: #83a17d;
+}
+
+.about__progress-loading {
+    margin-bottom: 18px;
+}
+
+.about__card-teams,
+.about__progress-loading {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.4;
+    color: var(--text-color);
+}
+
+.about__members {
+    margin-left: auto;
+}
+
+.about__members-avatar {
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    border: 2px solid #fff;
+    margin-left: -4px;
+}
+
+/* About content */
+
+.about__content {
+    margin-left: 64px;
+}
+
+.about__heading {
+    margin-top: 20px;
+    margin-bottom: 11px;
+}
+
+.about__heading::after {
+    display: none;
+}
+
+.about__description {
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 1.62;
+    color: var(--text-gray);
+}
+
+.about__stats {
+    margin-top: 36px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #83a17d;
+}
+
+.about__stats-percent {
+    font-weight: 600;
+    font-size: 4.2rem;
+    color: var(--text-color);
+    margin-right: 24px;
+}
+
+.about__stats-desc {
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 1.71;
+    color: var(--text-gray);
+}
