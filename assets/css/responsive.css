@@ -16,6 +16,14 @@
 
     .header__wrapper {
         padding-top: 25px;
+        position: fixed;
+        background: #fff;
+        z-index: 1;
+        top: 0px;
+        left: 0;
+        width: 100%;
+        padding-left: var(--gap-mobile);
+        padding-right: var(--gap-mobile);
     }
 
     .header__logo {
@@ -30,7 +38,7 @@
     /* Header hero */
     .header-hero {
         flex-direction: column;
-        padding-top: 38px;
+        padding-top: 124px;
     }
 
     .header-hero__content {
