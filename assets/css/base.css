@@ -45,8 +45,7 @@ button {
     -webkit-line-clamp: var(--line-clamp, 2);
     -webkit-box-orient: vertical;
     overflow: hidden;
-    word-wrap: break-word;
-    overflow-wrap: break-word;
+    word-break: break-word;
 }
 
 .line-clamp-1 {
@@ -54,7 +53,7 @@ button {
 }
 
 .line-clamp-3 {
-    --line-clamp: 1;
+    --line-clamp: 3;
 }
 
 a {

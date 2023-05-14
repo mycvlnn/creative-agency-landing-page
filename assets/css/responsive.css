@@ -411,6 +411,54 @@
     .service-feature__item-desc {
         font-size: 1.2rem;
     }
+
+    /* Home blog */
+    .home-blog {
+        margin-top: 50px;
+        padding: 0 var(--gap-mobile);
+    }
+
+    .home-blog__head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home-blog__heading {
+        margin-top: 20px;
+        max-width: 278px;
+    }
+
+    .home-blog__desc {
+        margin-top: 12px;
+        font-size: 1.4rem;
+        max-width: 272px;
+    }
+
+    .home-blog__list {
+        margin-top: 38px;
+        row-gap: 52px;
+    }
+
+    .blog-item {
+        border-radius: 40px 40px 20px 20px;
+        transition: 0.3s;
+    }
+
+    .blog-item:hover .blog-item__info {
+        padding-left: 28px;
+        padding-right: 28px;
+    }
+
+    .blog-item__info {
+        padding-left: 0;
+        padding-right: 0;
+        padding-top: 24px;
+    }
+
+    .blog-item__title {
+        margin-top: 12px;
+        font-size: 1.6rem;
+    }
 }
 
 /* Tablet 740px - 1023px */
