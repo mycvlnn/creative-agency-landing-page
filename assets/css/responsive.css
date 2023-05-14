@@ -459,6 +459,28 @@
         margin-top: 12px;
         font-size: 1.6rem;
     }
+
+    .footer {
+        margin-top: 50px;
+        padding: 95px var(--gap-mobile) 52px;
+    }
+
+    .footer__form-title {
+        font-size: 2.4rem;
+    }
+
+    .footer__form-group {
+        margin-top: 37px;
+        width: 100%;
+    }
+
+    .footer__form-control {
+        font-size: 2rem;
+    }
+
+    .footer__menu {
+        display: block;
+    }
 }
 
 /* Tablet 740px - 1023px */
