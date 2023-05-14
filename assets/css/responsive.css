@@ -368,6 +368,49 @@
         left: 142px;
         right: unset;
     }
+
+    /* Service features */
+    .service-feature {
+        margin-top: 50px;
+        padding: 0 var(--gap-mobile);
+    }
+
+    .service-feature__heading {
+        max-width: 275px;
+        text-align: center;
+    }
+
+    .service-feature__desc {
+        font-size: 1.4rem;
+        margin-top: 12px;
+        max-width: 306px;
+    }
+
+    .service-feature__list {
+        margin-top: 30px;
+        flex-direction: column;
+        row-gap: 30px;
+    }
+
+    .service-feature__item {
+        display: block;
+        min-height: 335px;
+    }
+
+    .service-feature__item:hover {
+        transform: unset;
+    }
+
+    .service-feature__item-title {
+        margin-top: 26px;
+        font-weight: 600;
+        font-size: 2rem;
+        color: var(--text-color);
+    }
+
+    .service-feature__item-desc {
+        font-size: 1.2rem;
+    }
 }
 
 /* Tablet 740px - 1023px */
